@@ -13,7 +13,7 @@
 
     <parent>
         <groupId>com.sifu</groupId>
-        <artifactId>comm</artifactId>
+        <artifactId>learn-spring-boot</artifactId>
         <version>1.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
@@ -26,7 +26,11 @@
 
     <dependencies>
 
-
+        <dependency>
+            <groupId>com.sifu</groupId>
+            <artifactId>comm</artifactId>
+            <version>${com.sifu.comm.version}</version>
+        </dependency>
 
     </dependencies>
 

@@ -12,9 +12,9 @@
     <description>Demo project for Spring Boot</description>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.5.RELEASE</version>
+        <groupId>com.sifu</groupId>
+        <artifactId>learn-spring-boot</artifactId>
+        <version>1.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -37,14 +37,9 @@
             <version>2.2.2</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <groupId>com.sifu</groupId>
+            <artifactId>comm</artifactId>
+            <version>${com.sifu.comm.version}</version>
         </dependency>
     </dependencies>
 
