@@ -12,6 +12,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>comm</module>
         <module>course1</module>
         <module>course2</module>
         <module>course3</module>

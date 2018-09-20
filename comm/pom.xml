@@ -4,17 +4,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sifu</groupId>
-    <artifactId>course1</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>comm</artifactId>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>course1</name>
+    <name>comm</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
-        <groupId>com.sifu</groupId>
-        <artifactId>comm</artifactId>
-        <version>1.0</version>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -25,9 +25,16 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
 
-
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
