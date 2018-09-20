@@ -16,6 +16,9 @@
         <module>course2</module>
         <module>course3</module>
         <module>course4</module>
+        <module>course5</module>
+        <module>course6</module>
+        <module>course7</module>
     </modules>
 
     <properties>
